@@ -1,4 +1,4 @@
-import chartImage from "@/asset/4b72077357a00bb2a748855a47b4c6b44cb5d95c.png";
+import chartImage from "@/assets/4b72077357a00bb2a748855a47b4c6b44cb5d95c.png";
 
 export function PredictiveModelChart() {
   return (
