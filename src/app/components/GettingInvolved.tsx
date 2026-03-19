@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform, MotionValue } from "motion/react";
 import { useRef } from "react";
-import passImage from "figma:asset/5124c2b701a56809f511cd76998692824813e116.png";
-import lectureImage from "figma:asset/7bd2822ce97d2ec5e9c8d339fe743cf2ddc6baea.png";
+import passImage from "@/asset/5124c2b701a56809f511cd76998692824813e116.png";
+import lectureImage from "@/asset/7bd2822ce97d2ec5e9c8d339fe743cf2ddc6baea.png";
 
 interface InvolvementCard {
   id: number;
