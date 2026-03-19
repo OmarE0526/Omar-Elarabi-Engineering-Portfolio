@@ -2,12 +2,12 @@ import { useParams, Link } from "react-router";
 import { motion } from "motion/react";
 import { experience } from "../data/portfolio-data";
 import { ArrowLeft } from "lucide-react";
-import stageImage from "figma:asset/0c400ebdd892150b0b333958956fb685090fb57c.png";
-import awardImage from "figma:asset/3520791f6b2b2a7def3a63c3f4ae3127f8409a0f.png";
-import welcomeWeekBanner from "figma:asset/ed0b68361575466a0c6265a8d9d5ac3be9af5f20.png";
-import passSessionImage from "figma:asset/7e4a3bfa178bddc887f2d5ef45de5b8b14810950.png";
-import opportunitiesFairImage from "figma:asset/7d3eea8227bb04d4b28e37126e212bad1fe78b2b.png";
-import socialMediaPromo from "figma:asset/ab7dc61850f5be9c3ead1cedbc2c96b0aa52a815.png";
+import stageImage from "@/asset/0c400ebdd892150b0b333958956fb685090fb57c.png";
+import awardImage from "@/asset/3520791f6b2b2a7def3a63c3f4ae3127f8409a0f.png";
+import welcomeWeekBanner from "@/asset/ed0b68361575466a0c6265a8d9d5ac3be9af5f20.png";
+import passSessionImage from "@/asset/7e4a3bfa178bddc887f2d5ef45de5b8b14810950.png";
+import opportunitiesFairImage from "@/asset/7d3eea8227bb04d4b28e37126e212bad1fe78b2b.png";
+import socialMediaPromo from "@/asset/ab7dc61850f5be9c3ead1cedbc2c96b0aa52a815.png";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, ReferenceLine } from "recharts";
 import { useState } from "react";
 
