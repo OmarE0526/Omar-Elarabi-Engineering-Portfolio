@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import ashbyImage from "@/asset/ceee38806425c898983731d89a4b9e1e0e151ceb.png";
+import ashbyImage from "@/assets/ceee38806425c898983731d89a4b9e1e0e151ceb.png";
 
 interface AshbyPlotProps {
   data: {
