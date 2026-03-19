@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { personalInfo } from "../data/portfolio-data";
-import headshotImage from "@/asset/70bb46962f102c0edf8487725ebda5dd495a1c89.png";
+import headshotImage from "@/assets/70bb46962f102c0edf8487725ebda5dd495a1c89.png";
 import { OpenToWorkBadge } from "./OpenToWorkBadge";
 
 export function AboutProfessionalFocus() {
