@@ -4,7 +4,7 @@ import { CV_DOWNLOAD_URL, HEAR_TRANSCRIPT_URL } from "../utils/constants";
 import { Mail, Linkedin, Download, Send } from "lucide-react";
 import { useState } from "react";
 
-import cvFile from "@/public/CV.Omar Elarabi.pdf";
+import cvFile from "@/public/CV .Omar Elarabi.pdf";
 import hearFile from "@/public/Omar Elarabi- HEAR Transcript.pdf";
 
 export function ContactSection() {
