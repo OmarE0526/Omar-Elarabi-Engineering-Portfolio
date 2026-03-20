@@ -4,6 +4,8 @@ import { education } from "../data/portfolio-data";
 import { HEAR_TRANSCRIPT_URL } from "../utils/constants";
 import { ArrowLeft, Download, GraduationCap } from "lucide-react";
 
+import hearFile from "@/public/Omar Elarabi- HEAR Transcript.pdf";
+
 export function EducationDetail() {
   const { educationId } = useParams();
   const edu = education.find((e) => e.id === educationId);
@@ -312,7 +314,7 @@ export function EducationDetail() {
                   Complete academic transcript including all modules, grades, and achievements throughout the degree programme.
                 </p>
                 <a
-                  href={HEAR_TRANSCRIPT_URL}
+                  href={hearFile}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors rounded-md text-sm font-medium"
