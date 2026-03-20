@@ -70,7 +70,7 @@ export function ContactSection() {
               </a>
 
               <a
-                href={CV_DOWNLOAD_URL}
+                href={cvFile}
                 download="Omar_Elarabi_CV.pdf"
                 className="flex items-center gap-4 group transition-opacity hover:opacity-60"
               >
@@ -81,7 +81,7 @@ export function ContactSection() {
               </a>
 
               <a
-                href={HEAR_TRANSCRIPT_URL}
+                href={hearFile}
                 download="Omar_Elarabi_HEAR_Transcript.pdf"
                 className="flex items-center gap-4 group transition-opacity hover:opacity-60"
               >
