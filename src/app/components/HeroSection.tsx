@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { personalInfo } from "../data/portfolio-data";
-import { CV_DOWNLOAD_URL } from "../utils/constants";
+import cvFile from "@/public/CV. Omar Elarabi.pdf";
+
 
 export function HeroSection() {
   const scrollToProjects = () => {
@@ -73,13 +74,16 @@ export function HeroSection() {
             >
               View Projects
             </button>
-            <button
-              onClick={() => window.open(CV_DOWNLOAD_URL, "_blank")}
-              className="px-8 py-4 border-2 border-primary text-primary rounded-sm transition-all hover:bg-primary hover:text-primary-foreground"
-              style={{ fontFamily: "var(--font-heading)", fontWeight: 600 }}
+            </button>
+
+            {/* ✅ Download CV (UPDATED) */}
+            <a
+              href={cvFile}
+              download="Omar_Elarabi_CV.pdf"
+              className="px-8 py-4 border-2 border-primary text-primary rounded-sm hover:bg-primary hover:text-primary-foreground"
             >
               Download CV
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>
