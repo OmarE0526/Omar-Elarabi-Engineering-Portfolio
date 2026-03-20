@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { personalInfo } from "../data/portfolio-data";
-import cvFile from "@/public/CV. Omar Elarabi.pdf";
+import cvFile from "@/public/CV .Omar Elarabi.pdf";
 
 export function HeroSection() {
   const scrollToProjects = () => {
