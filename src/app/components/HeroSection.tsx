@@ -74,10 +74,7 @@ export function HeroSection() {
             >
               View Projects
             </button>
-            </button>
-
-            {/* ✅ Download CV (UPDATED) */}
-            <a
+            <button
               href={cvFile}
               download="Omar_Elarabi_CV.pdf"
               className="px-8 py-4 border-2 border-primary text-primary rounded-sm hover:bg-primary hover:text-primary-foreground"
