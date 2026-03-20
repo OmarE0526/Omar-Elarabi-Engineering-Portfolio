@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { personalInfo } from "../data/portfolio-data";
 import cvFile from "@/public/CV. Omar Elarabi.pdf";
 
-
 export function HeroSection() {
   const scrollToProjects = () => {
     const element = document.getElementById("projects");
@@ -18,7 +17,12 @@ export function HeroSection() {
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="0.5"/>
+              <path
+                d="M 40 0 L 0 0 0 40"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="0.5"
+              />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
@@ -48,7 +52,10 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="text-xs tracking-[0.3em] uppercase opacity-60 mb-6" style={{ fontFamily: "var(--font-heading)" }}>
+          <div
+            className="text-xs tracking-[0.3em] uppercase opacity-60 mb-6"
+            style={{ fontFamily: "var(--font-heading)" }}
+          >
             {personalInfo.title}
           </div>
 
@@ -63,7 +70,9 @@ export function HeroSection() {
             className="text-lg md:text-xl max-w-3xl mb-12 opacity-80 leading-relaxed"
             style={{ fontFamily: "var(--font-body)" }}
           >
-            Final Year Aerospace Engineering student specialising in sustainability, powertrain and aircraft propulsion systems, computational fluid dynamics, and structural analysis through physics-grounded simulation and optimisation.
+            Final Year Aerospace Engineering student specialising in sustainability,
+            powertrain and aircraft propulsion systems, computational fluid dynamics,
+            and structural analysis through physics-grounded simulation and optimisation.
           </p>
 
           <div className="flex gap-4 flex-wrap">
@@ -74,13 +83,15 @@ export function HeroSection() {
             >
               View Projects
             </button>
-            <button
+
+            <a
               href={cvFile}
               download="Omar_Elarabi_CV.pdf"
-              className="px-8 py-4 border-2 border-primary text-primary rounded-sm hover:bg-primary hover:text-primary-foreground"
+              className="px-8 py-4 border-2 border-primary text-primary rounded-sm transition-all hover:bg-primary hover:text-primary-foreground inline-flex items-center justify-center"
               style={{ fontFamily: "var(--font-heading)", fontWeight: 600 }}
             >
               Download CV
+            </a>
           </div>
         </motion.div>
       </div>
