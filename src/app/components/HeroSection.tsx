@@ -78,6 +78,7 @@ export function HeroSection() {
               href={cvFile}
               download="Omar_Elarabi_CV.pdf"
               className="px-8 py-4 border-2 border-primary text-primary rounded-sm hover:bg-primary hover:text-primary-foreground"
+              style={{ fontFamily: "var(--font-heading)", fontWeight: 600 }}
             >
               Download CV
             </a>
