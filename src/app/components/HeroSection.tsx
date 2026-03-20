@@ -81,7 +81,6 @@ export function HeroSection() {
               style={{ fontFamily: "var(--font-heading)", fontWeight: 600 }}
             >
               Download CV
-            </a>
           </div>
         </motion.div>
       </div>
